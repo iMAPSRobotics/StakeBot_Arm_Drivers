@@ -8,7 +8,7 @@ This repository includes the Arduino code used to control the StakeBot's arms by
 First checkout the excel file "Custom Stepper Motor Pinout" to see how to wire the Pololu High Powered Stepper Motor Drivers to the Arduino Micro.
 Each of these wire do not require any resistors, ect. except for the buttons.
 
-> Remember that a button is basically a circuit that wires voltage back to ground (through a resistor) with a "probe like" wire that feeds back to a digital port. Check out This [link](https://docs.arduino.cc/built-in-examples/digital/Button/) for an example of how to wire together a button.
+> Remember that a button is basically a circuit that wires voltage back to ground (through a resistor) with a "probe like" wire that feeds back to a digital port. Check out this [link](https://docs.arduino.cc/built-in-examples/digital/Button/) for an example of how to wire together a button.
 
 For this driver, there are 2 Pololu High Power Stepper Motor Drivers(driver A, driver B) and 4 buttons two for each driver (Inner A, Outter A, Inner B, Outter B) 
 
@@ -30,7 +30,7 @@ There are two ways to do this:
 - You can open the serial monitor inside the Arduino IDE and type the commands and send them to the arduino. 
 - You can try running the python script where it will connect to the arduino and allow you to type commands. 
 
-> remember to change the stepDev list to the correct serial port
+> Remember to change the stepDev list to the correct serial port
 
 The avaiable commands are:
 - calibrate
